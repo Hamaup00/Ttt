@@ -1,0 +1,892 @@
+@import url("https://fonts.googleapis.com/earlyaccess/notokufiarabic.css");
+
+body {
+background-color: #282828;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+
+
+#sssesesesesee:hover{
+  color:#a5a5a5
+}
+#sssesesesesee{
+color: #868686; 
+text-decoration: none;
+}
+
+
+
+.heading {
+  padding: 280px 50px !important;
+}
+.heading .title {
+  font-size: 40px !important;
+  color: #f1f6ff !important;
+  line-height: 70px !important;
+}
+
+button.btn {
+  padding: 10px 50px !important;
+  border-radius: 5px !important;
+  margin-top: 40px !important;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-size: 16px !important;
+  transition: ease-in 0.3s !important;
+  box-shadow: 1px 10px 15px #212326;
+  margin-right: 5px !important;
+  margin-left: 5px !important;
+  border: 1px solid transparent !important;
+}
+
+button, button:hover, button:focus, button:active {
+  outline: none !important;
+}
+
+button.btn:hover {
+  cursor: pointer !important;
+  transform: translateY(-3px) !important;
+  transform-style: preserve-3d;
+  transform-origin: top;
+  opacity: 0.9 !important;
+}
+
+button.btn.primary {
+  background-color: #36393f !important;
+  color: #f1f6ff !important;
+}
+
+button.btn.secondary {
+  background-color: #1a1c20;
+  color: #f3fcff;
+}
+
+.navbar{
+  background-color: transparent;
+  /*margin: 2rem;*/
+  border-radius: 0px;
+  padding-top: 1pc;
+  padding-left: 1.4pc;
+}
+
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: red;
+  
+  transition: all ease-out .2999s;
+}
+
+.nav-item{
+  padding-right: 1pc;
+}
+/*.navbar {
+  padding: 15px 20px !important
+}
+.navbar.navlinks {
+  margin-top: 40px !important;
+  flex: fit-content !important;
+  display: inline !important;
+}
+.navbar .navlink {
+  display: inline !important;
+  color: #e6e7ff;
+  margin: 0px 10px 10px 10px !important;
+  text-decoration: none !important;
+}
+
+.navlink.brand {
+  margin-left: 830px !important;
+  font-weight: bolder !important;
+  font-size: 25px !important;
+  font-family: "NeoSans", sans-serif !important;
+}*/
+
+.features {
+  text-align: center !important;
+  background: linear-gradient(to right, #6c4ef6 50%, #7f2bef 50%);
+  padding: 60px 50px !important
+}
+.features .title {
+  font-size: 40px !important;
+  color: #f1f6ff !important;
+  line-height: 70px !important;
+}
+
+.features .subtitle {
+  font-size: 20px !important;
+  color: #d0d7ee;
+}
+
+.card {
+  padding: 60px 20px !important;
+  background: #1e212c !important;
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  border-radius: 5px !important;
+}
+
+.card .title {
+  font-size: 30px !important;
+  color: #dfe6ff !important;
+}
+
+.card .subtitle {
+font-size: 15px !important;
+  color: #d0d7ee;
+}
+
+.start {
+  text-align: center !important;
+  background: linear-gradient(to right, rgba(27, 23, 54, 0.87) 0%, rgba(33, 37, 80, 0.91) 100%);
+  padding: 60px 50px !important
+}
+
+.start .card {
+  background: rgba(96, 100, 166, 0.41) !important;
+}
+
+.footer {
+  text-align: center !important;
+  padding: 5px 6px !important;
+  color: #ecf2ff;
+  font-size: 14px !important
+}
+
+.footer a {
+  color: #1e212c !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+
+
+.guild-icon {
+  border-radius: 50%;
+
+ 
+
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.22) !important;
+}
+
+#guild-icon:hover {
+  border-radius: 0
+}
+
+.guild-icon1{
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.2), 0 5px 20px 0 rgba(0,0,0,0.22) !important;
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+ width: 60px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #36393f;
+}
+
+input:focus + .slider {
+  
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.guild-icon{
+  display: table;
+  float:left;
+  margin-left: 1pc;
+  margin-bottom:1.2pc;
+}
+
+.header-title {
+  font-weight: bold;
+}
+
+.button-invite{
+/*  background: transparent;
+  border-radius: 12.5px;
+  border: 1px solid #1982ec;
+  font-size: 19px;
+  /*width: 150px;
+  padding: 10px;
+  color: white;*/
+  border-radius: 12px;
+  background: rgb(190,41,39);
+  background: linear-gradient(90deg, rgba(190,41,39,1) 8%, rgba(255,0,66,1) 100%);
+  border: none;
+  padding: 5px;
+  width: 150px;
+  color: white;
+}
+
+.jumbotron{
+  height: 400px;
+}
+
+.uk-subnav{
+  text-transform: capitalize;
+}
+
+
+::-webkit-scrollbar {
+  width: 1.6666px;
+}
+
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0f0f0f; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff0002; 
+  border-radius: 25px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a10608; 
+}
+
+ 
+.desc{
+font-size: 17px;
+color: grey;
+  margin-left: 10px;
+}
+
+
+
+
+option{
+  background-color: #1e212c;
+}
+
+code{
+  background-color: #353842;
+}
+
+.uk-select{
+  width: 50%;
+}
+
+.tab {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1pc;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  
+width: 15%;
+  color: white;
+  border-bottom: 1px solid #ff0002;
+  margin: 1pc;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-color: #323332;
+  transition: all ease-out 0.111s;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-radius: 12px;
+background-color: #323332;
+ border-bottom: 0px;
+  transition: all ease-out 0.111s;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+@media only screen and (max-width: 768px) {
+.tab {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1pc;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  text-align: center;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  
+width: 25%;
+  color: white;
+  border-bottom: 1px solid #ff0002;
+  margin: 1pc;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  background-color: #323332;
+  transition: all ease-out 0.111s;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  border-radius: 12px;
+background-color: #323332;
+ border-bottom: 0px;
+  transition: all ease-out 0.111s;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+}
+.tab2 {
+  float: right;
+  border: 1px solid transparent;
+  background: transparent;
+  width: 30%;
+  min-height: 370px;
+  margin-bottom: 100px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab2 button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Change background color of buttons on hover */
+.tab2 button:hover {
+  background-color: #141618;
+}
+
+/* Create an active/current "tab button" class */
+.tab3 {
+  background-color: #141618;
+}
+
+/* Style the tab content */
+.tabcontent2 {
+  margin-top: 180px;
+  text-align: center;
+  padding: 0px 12px;
+ /* border: 1px solid #ccc;*/
+  width: 70%;
+  border-left: none;
+  height: 800px;
+  display: none;
+  color: white;
+}
+
+
+
+.none-display{
+display: none;
+}
+
+.uk-notification {
+  background: transparent!important;
+  
+}
+
+textarea{
+  outline: none;
+    border: none;
+  border-right: 0px;
+}
+
+input:{
+   outline: none;
+    border: none;
+  border-right: 0px;
+}
+
+select{
+   outline: none;
+    border: none;
+  border-right: 0px;
+}
+
+textarea{
+  
+  padding-left: 12px;
+  border-right: 0px;
+}
+
+textarea:focus{
+  outline: none;
+    border: none;
+}
+
+input:focus{
+   outline: none;
+    border: none;
+}
+
+select:focus{
+   outline: none;
+    border: none;
+}
+
+option{
+  border-radius: 12px;
+  padding-left: 12px;
+}
+
+.btn:focus{
+  outline: none;
+    border: none;
+}
+
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.owner-img{
+  width: 128px;
+  height: 128px;
+  
+}
+
+.owner-text{
+  font-size: 35px;
+  
+}
+
+.owner-status {
+    position: absolute;
+    right: 130px;
+    top: 100px;
+  width: 25px;
+  display:block
+}
+
+.col-sm-4{
+    margin-bottom: 20pc;
+  }
+
+.prime-servers{
+  background-image: url("https://cdn.discordapp.com/attachments/722578466335359096/728016280216666132/4.2.png");
+  background-repeat: no-repeat;
+  height: 100px;
+ border-radius: 12px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 768px) {
+  .prime-servers{
+  background-image: url("https://cdn.discordapp.com/attachments/722578466335359096/728016280216666132/4.2.png");
+  background-repeat: no-repeat;
+  height: 130px;
+ border-radius: 12px;
+  background-position: center;
+  background-size: cover;
+}
+  .guild-name{
+    font-size: 20px;
+  } 
+  .server-details{
+  font-size: 15.28px;
+  }
+  
+  .owner-img{
+  width: 72px;
+  height: 72px;
+}
+  
+  .owner-text{
+  font-size: 20px;
+}
+  
+  #features{
+    margin-top: 100px;
+  }
+  
+  .owner-status {
+    position: absolute;
+    right: 215px;
+    top: 55px;
+  width: 15px;
+    display:none;
+}
+  .col-sm-4{
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+   .owner-status {
+    position: absolute;
+    right: 215px;
+    top: 55px;
+  width: 15px;
+    display:none;
+}
+}
+
+.server-details{
+  font-size: px
+}
+
+
+.user-info {
+  
+  display: inline-block;
+  color: white;
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 1pc;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 16px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user-info code {
+  background: transparent
+}
+
+
+
+.invite-btn {
+  
+  background-color: transparent;
+  border: 1px solid #ff0002;
+  color: white;
+  padding: 12px 28px;
+  font-size: 16px;
+  transition: 0.3s;
+  border-radius: 6px;
+  margin-right: 1pc;
+}
+
+.invite-btn:hover {
+  background-color: #ff0002;
+  color: white;
+  text-decoration: none;
+}
+
+.prime-servers code {
+  background: transparent
+}
+
+
+
+.adv-item {
+  margin-bottom: 75px;
+  height: auto;
+  width: auto;
+  margin-right: 129px;
+  margin-left: 129px;
+
+}
+.adv-title:hover {
+  color: #d3d3d3;
+  transition: 0.5s;
+}
+.adv-title {
+  
+  margin-top: 45px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+.adv-desc {
+  color: gainsboro;
+  opacity: 0.5;
+}
+.adv-img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.owner-img {
+    position:relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.login-btn {
+  border: 2px solid #DABB0F !important;
+  font-size: 10px !important;
+}
+.login-btn:hover {
+  background: #DABB0F !important;
+}
+.login-btn:active {
+  background: #333 !important;
+}
+
+.save-button{
+  color: #ffffff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: transparent;
+padding: 10px 20px 10px 20px;
+border: 2px solid #ff0002 !important;
+  border-radius: 8px;
+
+transition: all 0.4s ease 0s;
+  margin-top: 15px;
+  
+}
+
+.save-button:hover{
+ color: #ffffff !important;
+background: #ff0002;
+border: 2px solid #ff0002 !important;
+transition: all 0.4s ease 0s;
+}
+
+.card-server {
+  padding-top: 10px ;
+  padding-right: 30px ;
+  padding-left: 30px ;
+  padding-bottom: 10px ;
+  background: #202020 ;
+ 
+  border-radius: 5px ;
+  border: 1px solid #000;
+}
+
+.card-hr{
+  background: #505050 ;
+  margin-top: 30px;
+  width: 150px;
+}
+
+.partner{
+  display: inline-block;
+  margin: 1pc;
+}
+
+.dropdown-item:active{
+  background-color: grey
+}
+/*.area{
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:100vh;
+    
+   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}*/
+
+.banner{
+  
+  color: white;
+  margin-top: 2pc;
+}
+
+.banner-image{
+  width: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .banner-image{
+  width: 80px;
+}
+}
